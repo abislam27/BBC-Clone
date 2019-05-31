@@ -91,7 +91,7 @@
 
 		#menubar-container
 		{
-			height: 65px;
+			height: 95px;
 			background-color: #CB0000;
 		}
 
@@ -105,15 +105,10 @@
 			color: white;
 		}
 
-		#menubar-container-2
-		{
-			height: 30px;
-			background-color: #CB0000;
-		}
-
 		#menubar
 		{
 			margin-left: 45px;
+			padding-top: 10px;
 		}
 
 		#menubar a
@@ -127,6 +122,12 @@
 			top: 4px;
 		}
 
+		#menubar a:hover
+		{
+			border-bottom: 3px white solid;
+			height: 20px;
+		}
+
 		.no-border
 		{
 			border: none !important;
@@ -136,6 +137,16 @@
 		{
 			position: relative;
 			left: -12px;
+		}
+
+		h2.tech
+		{
+			font-weight: normal;
+			font-size: 22px;
+			color: #424242;
+			border-bottom: 3px #CB0000 solid;
+			width: 47px;
+			margin: 5px 0 0 53px;
 		}
 	</style>
 </head>
@@ -185,9 +196,7 @@
 
 	<div id="menubar-container">
 		<h1 class="menubar">NEWS</h1>
-	</div>
 
-	<div id="menubar-container-2">
 		<div id="menubar">
 			<a href="">Home</a>
 			<a href="">Video</a>
@@ -209,6 +218,12 @@
 	</div>
 
 	<div class="clear"></div>
+
+	<div id="page-container">
+		<div id="main-article">
+			<h2 class="tech">Tech</h2>
+		</div>
+	</div>
 
 </body>
 </html>
