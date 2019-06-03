@@ -2,6 +2,9 @@
 <html>
 <head>
 	<title>Technology - BBC News</title>
+
+	<link rel="shortcut icon" type="image/png" href="images/fav.png">
+
 	<style type="text/css">
 		#topbar
 		{
@@ -148,6 +151,82 @@
 			width: 47px;
 			margin: 5px 0 0 53px;
 		}
+
+		#main-news-photo
+		{
+			width: 614px;
+			margin: 52px 17px 10px 53px;
+			float: left;
+		}
+
+		#main-article
+		{
+			margin-top: 63px;
+			width: 71%;
+		}
+
+		a.main-news-headline
+		{
+			font-size: 29px;
+			font-weight: bold;
+			text-decoration: none;
+		}
+
+		p.main-article-details
+		{
+			font-size: 90%;
+			margin-top: 8px;
+			color: #5E5E5E;
+		}
+
+		img.clock
+		{
+			position: relative;
+			top: 3px;
+		}
+
+		.time
+		{
+			font-size: 87%;
+			color: #5E5E5E;
+		}
+
+		.location
+		{
+			font-size: 87%;
+			text-decoration: none;
+			color: black;
+		}
+
+		a.text-color:hover
+		{
+			text-decoration: underline;
+			color: #007CA3;
+		}
+
+		a.text-color:visited
+		{
+			color: #5E5E5E;
+		}
+
+		#news-suggestion
+		{
+			font-weight: bold;
+			position: relative;
+			top: 18px;
+			left: 17px;
+		}
+
+		#ad
+		{
+			float: right;
+			font-size: 78%;
+			font-weight: bold;
+			color: #5E5E5E;
+			position: relative;
+			left: -158px;
+			top: -262px;
+		}
 	</style>
 </head>
 <body>
@@ -220,10 +299,23 @@
 	<div class="clear"></div>
 
 	<div id="page-container">
+		<h2 class="tech">Tech</h2>
+
+		<img id="main-news-photo" src="images/social-media.png">
 		<div id="main-article">
-			<h2 class="tech">Tech</h2>
+			<a href="" class="main-news-headline text-color">US demands social media info from visa applicants</a>
+			<p class="main-article-details">Nearly all visa applicants will have to submit social media names, email address and phone numbers.</p>
+
+			<img class="clock" src="images/clock.png">
+			<span class="time">1 June 2019 | </span><a href="" class="location text-color">US & Canada</a>
+
+			<ul id="news-suggestion">
+				<li>Feeling the impact of Trump's foreign worker squeeze</li>
+			</ul>
 		</div>
 	</div>
+
+	<div id="ad">ADVERTISEMENT</div>
 
 </body>
 </html>
